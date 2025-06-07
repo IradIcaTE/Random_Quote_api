@@ -11,7 +11,7 @@ pipeline {
         stage('Build Image'){
             steps {
                 script {
-                    sh 'docker build -t random-queue-api ./app'
+                    sh 'docker build -t random-quote-api ./app'
                 }
             }
         }
