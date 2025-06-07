@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git url:'', branch: 'main'
+                git url:'https://github.com/IradIcaTE/Random_Quote_api.git', branch: 'main'
             }
         }
 
